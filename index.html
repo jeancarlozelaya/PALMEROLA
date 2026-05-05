@@ -835,7 +835,7 @@
 
             if (timeElapsed < twentyFourHours) {
                 // La sesión es válida, redirigir directamente
-                window.location.href = 'Pag - RRHH.html';
+                window.location.href = 'Gestion-de-Empleados/Pag - RRHH.html';
                 return;
             }
         }
@@ -863,7 +863,7 @@
             if (result.isConfirmed) {
                 // Si la contraseña es correcta, guardar la sesión y redirigir
                 localStorage.setItem(sessionKey, new Date().getTime().toString());
-                window.location.href = 'Pag - RRHH.html';
+                window.location.href = 'Gestion-de-Empleados/Pag - RRHH.html';
             }
         });
     }
